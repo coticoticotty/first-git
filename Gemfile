@@ -47,6 +47,21 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  
+  # 高機能コンソール
+  gem 'pry-rails'
+
+  # デバッガー
+  gem 'pry-byebug'
+
+  # pryの入出力に色付け
+  gem 'pry-coolline'
+  gem 'awesome_print'
+
+  # PryでのSQLの結果を綺麗に表示
+  gem 'hirb'
+  # 2byte文字で表示がずれるのを改善
+  gem 'hirb-unicode'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
